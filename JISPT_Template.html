@@ -1,0 +1,665 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+  <title>JISPT Template</title>
+
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="fresh-bootstrap-table.css" rel="stylesheet" />
+   <link href="demo.css" rel="stylesheet" />
+
+  <!--   Fonts and icons   -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <script src="https://unpkg.com/bootstrap-table/dist/bootstrap-table.js"></script>
+
+
+</head>
+<body>
+
+<div class="wrapper">
+  <a href="">
+    <div class="logo-container full-screen-table-demo">
+      <div class="logo">
+        <img src="new_logo.png" width="230px" height="70px">
+      </div>
+      <div class="brand">
+        <div class="dropdown show">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <i class="fa fa-bars"></i>
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <ul style="margin: 0;
+    padding: 4px 19px;
+    line-height: 29px;">
+    <li><a class="dropdown-item" href="#" style="color:#666666;"><i class="fa fa-id-card" aria-hidden="true"></i>&nbsp;&nbsp;JISQSI</a></li>
+    <li><a class="dropdown-item" href="#" style="color:#666666;"><i class="fa fa-cog" aria-hidden="true"></i>&nbsp;&nbsp;JISFAM</a></li>
+    <li><a class="dropdown-item" href="#" style="color:#666666;"><i class="fa fa-id-card" aria-hidden="true"></i>&nbsp;&nbsp;JISWFAM</a></li>
+    <li><a class="dropdown-item" href="#" style="color:#666666;"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;&nbsp;SSIM EDITOR</a></li>
+    <li><a class="dropdown-item" href="#" style="color:#666666;"><i class="fa fa-hourglass" aria-hidden="true"></i>&nbsp;&nbsp;CS CREATOR</a></li>
+    <li><a class="dropdown-item" href="#" style="color:#666666;"><i class="fa fa-life-ring" aria-hidden="true"></i>&nbsp;&nbsp;COMPARISION</a></li>
+    <li><a class="dropdown-item" href="#" style="color:#666666;"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;&nbsp;SUBMIT</a></li>
+  </ul>
+  </div>
+</div>
+Hello REHA
+      </div>
+    </div>
+  </a>
+
+  <div class="fresh-table full-screen-table">
+    <table id="fresh-table" class="table">
+      <thead>
+        <th data-field="id">User ID</th>
+        <th data-field="name" data-sortable="true">Scenario Manager</th>
+        <th data-field="salary" data-sortable="true">Public</th>
+        <th data-field="country" data-sortable="true">Status</th>
+        <th data-field="city">Modified Date</th>
+        <th data-field="">Comments</th>
+        <th data-field="actions" data-formatter="operateFormatter" data-events="operateEvents">Actions</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>REHA</td>
+          <td>TESTMCT_NG</td>
+          <td>YES</td>
+          <td><a class="text-info">New</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_SRI</td>
+          <td>YES</td>
+          <td><a class="text-warning">Reading Data Failed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_NG</td>
+          <td>YES</td>
+          <td><a class="text-secondary">Processing Data..</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>NEW_MCT</td>
+          <td>YES</td>
+          <td><a class="text-danger">File not found</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_20160131</td>
+          <td>TES</td>
+          <td><a class="text-success">Completed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>TESTMCT_NG</td>
+          <td>YES</td>
+          <td><a class="text-info">New</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_SRI</td>
+          <td>YES</td>
+          <td><a class="text-warning">Reading Data Failed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_NG</td>
+          <td>YES</td>
+          <td><a class="text-secondary">Processing Data..</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>NEW_MCT</td>
+          <td>YES</td>
+          <td><a class="text-danger">File not found</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_20160131</td>
+          <td>YES</td>
+          <td><a class="text-success">Completed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+         <tr>
+          <td>REHA-test</td>
+          <td>TESTMCT_NG</td>
+          <td>YES</td>
+          <td><a class="text-info">New</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_SRI</td>
+          <td>YES</td>
+          <td><a class="text-warning">Reading Data Failed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_NG</td>
+          <td>YES</td>
+          <td><a class="text-secondary">Processing Data..</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>NEW_MCT</td>
+          <td>YES</td>
+          <td><a class="text-danger">File not found</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_20160131</td>
+          <td>TES</td>
+          <td><a class="text-success">Completed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>TESTMCT_NG</td>
+          <td>YES</td>
+          <td><a class="text-info">New</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_SRI</td>
+          <td>YES</td>
+          <td><a class="text-warning">Reading Data Failed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_NG</td>
+          <td>YES</td>
+          <td><a class="text-secondary">Processing Data..</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>NEW_MCT</td>
+          <td>YES</td>
+          <td><a class="text-danger">File not found</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_20160131</td>
+          <td>YES</td>
+          <td><a class="text-success">Completed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+         <tr>
+          <td>REHA</td>
+          <td>TESTMCT_NG</td>
+          <td>YES</td>
+          <td><a class="text-info">New</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_SRI</td>
+          <td>YES</td>
+          <td><a class="text-warning">Reading Data Failed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_NG</td>
+          <td>YES</td>
+          <td><a class="text-secondary">Processing Data..</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>NEW_MCT</td>
+          <td>YES</td>
+          <td><a class="text-danger">File not found</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_20160131</td>
+          <td>TES</td>
+          <td><a class="text-success">Completed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>TESTMCT_NG</td>
+          <td>YES</td>
+          <td><a class="text-info">New</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_SRI</td>
+          <td>YES</td>
+          <td><a class="text-warning">Reading Data Failed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_NG</td>
+          <td>YES</td>
+          <td><a class="text-secondary">Processing Data..</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>NEW_MCT</td>
+          <td>YES</td>
+          <td><a class="text-danger">File not found</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_20160131</td>
+          <td>YES</td>
+          <td><a class="text-success">Completed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+         <tr>
+          <td>REHA</td>
+          <td>TESTMCT_NG</td>
+          <td>YES</td>
+          <td><a class="text-info">New</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_SRI</td>
+          <td>YES</td>
+          <td><a class="text-warning">Reading Data Failed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_NG</td>
+          <td>YES</td>
+          <td><a class="text-secondary">Processing Data..</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>NEW_MCT</td>
+          <td>YES</td>
+          <td><a class="text-danger">File not found</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_20160131</td>
+          <td>TES</td>
+          <td><a class="text-success">Completed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>TESTMCT_NG</td>
+          <td>YES</td>
+          <td><a class="text-info">New</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_SRI</td>
+          <td>YES</td>
+          <td><a class="text-warning">Reading Data Failed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_NG</td>
+          <td>YES</td>
+          <td><a class="text-secondary">Processing Data..</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>NEW_MCT</td>
+          <td>YES</td>
+          <td><a class="text-danger">File not found</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_20160131</td>
+          <td>YES</td>
+          <td><a class="text-success">Completed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+         <tr>
+          <td>REHA</td>
+          <td>TESTMCT_NG</td>
+          <td>YES</td>
+          <td><a class="text-info">New</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_SRI</td>
+          <td>YES</td>
+          <td><a class="text-warning">Reading Data Failed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_NG</td>
+          <td>YES</td>
+          <td><a class="text-secondary">Processing Data..</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>NEW_MCT</td>
+          <td>YES</td>
+          <td><a class="text-danger">File not found</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_20160131</td>
+          <td>TES</td>
+          <td><a class="text-success">Completed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>TESTMCT_NG</td>
+          <td>YES</td>
+          <td><a class="text-info">New</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_SRI</td>
+          <td>YES</td>
+          <td><a class="text-warning">Reading Data Failed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_NG</td>
+          <td>YES</td>
+          <td><a class="text-secondary">Processing Data..</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>NEW_MCT</td>
+          <td>YES</td>
+          <td><a class="text-danger">File not found</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>REHA</td>
+          <td>KOLA_20160131</td>
+          <td>YES</td>
+          <td><a class="text-success">Completed</a></td>
+          <td>2017-09-2019</td>
+          <td></td>
+          <td></td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+ 
+</div>
+
+
+<div class="fixed-plugin" style="top: 300px">
+  <div class="dropdown open">
+    <a href="#" data-toggle="dropdown">
+    <i class="fa fa-cog fa-2x"> </i>
+    </a>
+    <ul class="dropdown-menu">
+      <li class="header-title"></li>
+      <li class="adjustments-line"><a href="javascript:void(0)" class="switch-trigger">Scenario Manager</a></li>
+      <li class="adjustments-line"><a href="javascript:void(0)" class="switch-trigger">Setting</a></li>
+      <li class="adjustments-line"><a href="javascript:void(0)" class="switch-trigger">Setting2</a></li>
+      <li class="adjustments-line"><a href="javascript:void(0)" class="switch-trigger">Manual Override</a></li>
+      <li class="adjustments-line"><a href="javascript:void(0)" class="switch-trigger">Setting3</a></li>
+      <li class="adjustments-line"><a href="javascript:void(0)" class="switch-trigger">Setting4</a></li>
+      <li class="adjustments-line"><a href="javascript:void(0)" class="switch-trigger">Cost</a></li>
+      <li class="adjustments-line"><a href="javascript:void(0)" class="switch-trigger">Results</a></li>
+      <li class="adjustments-line"><a href="javascript:void(0)" class="switch-trigger">Uplaod</a></li>
+    
+    </ul>
+  </div>
+</div>
+
+<script>
+  var $table = $('#fresh-table')
+
+  window.operateEvents = {
+    'click .like': function (e, value, row, index) {
+      alert('You click like icon, row: ' + JSON.stringify(row))
+      console.log(value, row, index)
+    },
+    'click .edit': function (e, value, row, index) {
+      alert('You click edit icon, row: ' + JSON.stringify(row))
+      console.log(value, row, index)
+    },
+    'click .remove': function (e, value, row, index) {
+      $table.bootstrapTable('remove', {
+        field: 'id',
+        values: [row.id]
+      })
+    }
+  }
+
+  function operateFormatter(value, row, index) {
+  return `
+    <div class="dropdown">
+      <button class="btn btn-xs btn-default dropdown-toggle"
+              type="button"
+              data-toggle="dropdown"
+              onclick="event.stopPropagation()"
+              style="border:none;background:transparent;">
+        <i class="fa fa-ellipsis-v"></i>
+      </button>
+
+      <ul class="dropdown-menu dropdown-menu-right">
+        <li>
+          <a class="edit" href="javascript:void(0)">
+            <i class="fa fa-edit"></i> Edit
+          </a>
+        </li>
+        <li>
+          <a class="remove text-danger" href="javascript:void(0)">
+            <i class="fa fa-trash"></i> Delete
+          </a>
+        </li>
+      </ul>
+    </div>
+  `;
+}
+
+
+  $(function () {
+    $table.bootstrapTable({
+      classes: 'table table-hover table-striped',
+      toolbar: '.toolbar',
+
+      search: true,
+      showRefresh: true,
+      showToggle: true,
+      showColumns: true,
+      pagination: true,
+      striped: true,
+      sortable: true,
+      height: $(window).height(),
+      pageSize: 10,
+      pageList: [10, 15, 20],
+
+      formatShowingRows: function (pageFrom, pageTo, totalRows) {
+        return ''
+      },
+      formatRecordsPerPage: function (pageNumber) {
+        return pageNumber + ' rows visible'
+      }
+    })
+
+
+    $(window).resize(function () {
+      $table.bootstrapTable('resetView', {
+        height: $(window).height()
+      })
+    })
+  })
+
+  
+</script>
+
+<!-- <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga')
+
+  ga('create', 'UA-46172202-1', 'auto')
+  ga('send', 'pageview')
+
+</script> -->
+
+<script>
+  window.operateEvents = {
+  'click .edit': function (e, value, row, index) {
+    e.stopPropagation();
+    alert('Edit row: ' + JSON.stringify(row));
+  },
+
+  'click .remove': function (e, value, row, index) {
+    e.stopPropagation();
+    $table.bootstrapTable('remove', {
+      field: 'id',
+      values: [row.id]
+    });
+  }
+};
+
+
+</script>
+
+</body>
+
+</html>
